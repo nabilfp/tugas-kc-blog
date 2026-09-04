@@ -31,10 +31,7 @@
     <section class="contact-content">
       <h2>Hubungi Saya</h2>
       <p>Jika Anda memiliki pertanyaan atau ingin berkolaborasi, silakan kirim pesan melalui formulir di bawah ini.</p>
-      <div class="sent-msg" id="sentMsg">✅ Pesan berhasil dikirim! Terima kasih.</div>
-      <form class="contact-form" action="https://formspree.io/f/XXXXXXXXX" method="POST">
-        <input type="hidden" name="_subject" value="Pesan dari Blog Pribadi" />
-        <input type="hidden" name="_next" value="https://nabilfp.github.io/tugas-kc-blog/contact.html?sent=true" />
+      <form class="contact-form" action="#" method="POST">
         <label for="name">Nama</label>
         <input type="text" id="name" name="name" placeholder="Nama Anda" required />
 
@@ -48,11 +45,6 @@
       </form>
     </section>
   </main>
-  <script>
-    if (window.location.search.includes('sent=true')) {
-      document.getElementById('sentMsg').style.display = 'block';
-    }
-  </script>
 
   <footer>
     <div class="container">
