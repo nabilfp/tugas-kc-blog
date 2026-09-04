@@ -276,3 +276,60 @@ footer strong {
     height: 180px;
   }
 }
+
+/* ========== Post Detail Page ========== */
+.post-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.post-detail img {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.post-detail h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.post-meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+.post-content {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+blockquote {
+  border-left: 4px solid #2c3e50;
+  margin: 32px 0;
+  padding: 16px 24px;
+  background-color: #f0f3f5;
+  border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+  font-style: italic;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+blockquote footer {
+  font-weight: 600;
+  color: #2c3e50;
+  font-style: normal;
+}
+
+.post-detail .btn-read {
+  margin-top: 32px;
+}
