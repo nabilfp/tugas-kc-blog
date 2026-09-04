@@ -277,45 +277,40 @@ footer strong {
   }
 }
 
-/* ========== Author Bar ========== */
-.author-bar {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  background: linear-gradient(135deg, #2c3e50, #1a252f);
+/* ========== Author Box ========== */
+.author-box {
+  display: block;
+  background-color: #e74c3c;
   color: #ffffff;
-  padding: 20px 24px;
-  border-radius: 12px;
+  padding: 20px 28px;
+  border-radius: 10px;
   margin: 24px 0;
-  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.3);
+  text-align: center;
+  border: 3px solid #c0392b;
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
 }
 
-.author-avatar {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-color: #3d5a80;
-  border: 3px solid #ffffff;
-  flex-shrink: 0;
+.author-label {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 4px;
 }
 
-.author-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.author-full-name {
+.author-name-big {
+  display: block;
   font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #ffffff;
+  margin-bottom: 4px;
 }
 
-.author-title-text {
-  font-size: 0.85rem;
-  color: #bdc3c7;
-  font-weight: 400;
+.author-role {
+  display: block;
+  font-size: 0.9rem;
+  color: #fadbd8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 /* ========== Post Detail Page ========== */
