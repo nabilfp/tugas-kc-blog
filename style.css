@@ -277,6 +277,47 @@ footer strong {
   }
 }
 
+/* ========== Author Bar ========== */
+.author-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #2c3e50, #1a252f);
+  color: #ffffff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  margin: 24px 0;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.3);
+}
+
+.author-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #3d5a80;
+  border: 3px solid #ffffff;
+  flex-shrink: 0;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-full-name {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.author-title-text {
+  font-size: 0.85rem;
+  color: #bdc3c7;
+  font-weight: 400;
+}
+
 /* ========== Post Detail Page ========== */
 .post-detail {
   max-width: 800px;
