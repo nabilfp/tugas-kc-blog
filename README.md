@@ -53,22 +53,6 @@ blog-pribadi/
 
 **Nabil Najwa Akmal** — 🎓 Tugas Koding Komputer
 
-## Contributors
-
-| Nama | Kontribusi |
-|------|------------|
-| Nabil Najwa Akmal | Developer, Desainer, Content Creator |
-
-### Kontribusi Terbuka
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan:
-
-1. Fork repositori ini
-2. Buat branch baru (`git checkout -b fitur-baru`)
-3. Commit perubahan (`git commit -m 'Tambah fitur baru'`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat **Pull Request**
-
 ## Cara Menjalankan
 
 1. Clone repositori ini:
