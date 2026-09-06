@@ -3,58 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog Pribadi - Home</title>
+  <title>Nabil Najwa Akmal — Data Diri</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1 class="site-title"><a href="index.html">Blog Pribadi</a></h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+
+  <header class="topbar">
+    <div class="topbar-left">
+      <img src="images/profil.jpg" alt="Foto Nabil Najwa Akmal" class="profil-img" />
+      <div class="profil-info">
+        <h1 class="site-name">Nabil Najwa Akmal</h1>
+        <p class="site-tagline">Data Diri &amp; Biodata</p>
+      </div>
     </div>
+    <nav class="topbar-right">
+      <a href="#" class="logo-link" title="Logo Universitas">
+        <img src="images/univ-logo.webp" alt="Logo Universitas" class="logo-icon" />
+      </a>
+      <a href="#" class="logo-link" title="Logo UKM">
+        <img src="images/ukm-logo.png" alt="Logo UKM" class="logo-icon" />
+      </a>
+      <a href="#" class="logo-link" title="Logo UTM">
+        <img src="images/logo.svg" alt="Logo UTM" class="logo-icon" />
+      </a>
+    </nav>
   </header>
 
   <main class="container">
     <section class="hero">
-      <img src="images/hero-placeholder.png" alt="Ilustrasi lanskap alam untuk header blog pribadi" width="1200" height="400" />
+      <div class="hero-content">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Perkenalkan, saya <strong>Nabil Najwa Akmal</strong>, seorang individu yang aktif dalam dunia akademik dan organisasi.</p>
+      </div>
     </section>
 
-    <section class="posts">
-      <h2>Postingan Terbaru</h2>
-      <article class="post-card">
-        <img src="images/post1-placeholder.png" alt="Foto placeholder untuk artikel pertama blog" width="600" height="300" />
-        <h3>Selamat Datang di Blog Saya</h3>
-        <p class="post-excerpt">Ini adalah postingan pertama yang memperkenalkan blog pribadi ini. Saya akan berbagi pengalaman dan pemikiran setiap hari.</p>
-        <a href="post1.html" class="btn-read">Baca Selengkapnya</a>
-      </article>
-      <article class="post-card">
-        <img src="images/post2-placeholder.png" alt="Foto placeholder untuk artikel kedua blog" width="600" height="300" />
-        <h3>Tentang Gaya Hidup Minimalis</h3>
-        <p class="post-excerpt">Berikut adalah pemikiran saya tentang bagaimana menjalani hidup dengan lebih sederhana dan bermakna.</p>
-        <a href="post2.html" class="btn-read">Baca Selengkapnya</a>
-      </article>
-      <article class="post-card">
-        <img src="images/post3-placeholder.png" alt="Foto placeholder untuk artikel ketiga blog" width="600" height="300" />
-        <h3>Perjalanan Belajar Pemrograman</h3>
-        <p class="post-excerpt">Mengulas bagaimana proses belajar pemrograman dimulai dan tantangan yang dihadapi sepanjang jalan.</p>
-        <a href="post3.html" class="btn-read">Baca Selengkapnya</a>
-      </article>
+    <section class="biodata">
+      <h2>Biodata Diri</h2>
+      <div class="biodata-grid">
+        <div class="biodata-card">
+          <span class="biodata-label">Nama</span>
+          <span class="biodata-value">Nabil Najwa Akmal</span>
+        </div>
+        <div class="biodata-card">
+          <span class="biodata-label">Asal</span>
+          <span class="biodata-value">Jombang, Jawa Timur</span>
+        </div>
+        <div class="biodata-card">
+          <span class="biodata-label">Umur</span>
+          <span class="biodata-value">18 tahun</span>
+        </div>
+        <div class="biodata-card">
+          <span class="biodata-label">Alumni</span>
+          <span class="biodata-value">SMA Negeri Jombang</span>
+        </div>
+        <div class="biodata-card">
+          <span class="biodata-label">Status</span>
+          <span class="biodata-value">Mahasiswa</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Kontak</h2>
+      <div class="contact-list">
+        <div class="contact-item">
+          <span class="contact-icon">📱</span>
+          <a href="https://wa.me/6285213081416" target="_blank" rel="noopener">085213081416</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <a href="mailto:email">email</a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2026 Blog Pribadi. Dibuat oleh <strong>Nabil Najwa Akmal</strong>.</p>
+      <p>&copy; 2026 Data Diri — Nabil Najwa Akmal</p>
     </div>
   </footer>
+
 </body>
 </html>
