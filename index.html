@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,16 +16,16 @@
       <h1 class="site-name">Nabil Najwa Akmal</h1>
       <p class="site-tagline">Data Diri &amp; Biodata</p>
     </div>
-    <nav class="topbar-logos">
-      <img src="images/profil.jpg" alt="Foto Nabil Najwa Akmal" class="profil-img" />
-      <a href="#" title="Logo Universitas"><img src="images/univ-logo.webp" alt="Logo Universitas" class="logo-icon" /></a>
-      <a href="#" title="Logo UKM"><img src="images/ukm-logo.png" alt="Logo UKM" class="logo-icon" /></a>
-      <a href="#" title="Logo UTM"><img src="images/logo.svg" alt="Logo UTM" class="logo-icon" /></a>
+    <nav class="topbar-nav">
+      <a href="#hero" class="nav-link" data-section="hero">Tentang</a>
+      <a href="#biodata" class="nav-link" data-section="biodata">Biodata</a>
+      <a href="#contact" class="nav-link" data-section="contact">Kontak</a>
+      <button id="themeToggle" class="theme-btn" title="Ganti tema">🌓</button>
     </nav>
   </header>
 
   <main class="container">
-    <section class="hero">
+    <section id="hero" class="hero">
       <div class="hero-text">
         <h2>Tentang Saya</h2>
         <p>Saya berusia 18 tahun dan sangat menyukai teknologi, khususnya infrastruktur IT, administrasi sistem, dan keamanan siber. Saya sedang menempuh gelar di bidang Sistem Informasi dan aktif membangun fondasi kemampuan saya di dunia teknologi.</p>
@@ -35,7 +35,7 @@
       </div>
     </section>
 
-    <section class="biodata">
+    <section id="biodata" class="biodata">
       <h2>Biodata Diri</h2>
       <div class="biodata-grid">
         <div class="biodata-card">
@@ -61,7 +61,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <h2>Kontak</h2>
       <div class="contact-list">
         <div class="contact-item">
@@ -86,5 +86,8 @@
     </div>
   </footer>
 
+  <button id="scrollTopBtn" class="scroll-top-btn" title="Ke atas">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
