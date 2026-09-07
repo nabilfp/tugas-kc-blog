@@ -126,6 +126,37 @@ main.container {
   line-height: 1.8;
 }
 
+.hero-tagline {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #bdc3c7;
+  line-height: 1.9;
+  display: inline-block;
+}
+
+.hero-tagline span {
+  color: #ecf0f1;
+}
+
+.hero-site {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #1ab9ee;
+}
+
+.hero-site a {
+  color: #1ab9ee;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.hero-site a:hover {
+  color: #f5c542;
+}
+
 .hero-visual {
   flex-shrink: 0;
 }
