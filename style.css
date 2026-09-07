@@ -126,22 +126,6 @@ main.container {
   line-height: 1.8;
 }
 
-.hero-site {
-  margin-top: 12px;
-  font-size: 0.85rem;
-  color: #1ab9ee;
-}
-
-.hero-site a {
-  color: #1ab9ee;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.hero-site a:hover {
-  color: #f5c542;
-}
-
 .hero-visual {
   flex-shrink: 0;
 }
