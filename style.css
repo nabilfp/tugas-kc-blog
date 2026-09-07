@@ -189,11 +189,6 @@ ul {
   transform: scale(1.05);
 }
 
-.logo-icon.profil-icon {
-  border-radius: 50%;
-  border: 2px solid var(--profil-border);
-}
-
 /* ========== Main ========== */
 main.container {
   padding-top: 40px;
