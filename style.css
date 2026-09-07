@@ -107,6 +107,18 @@ ul {
   transition: background-color 0.4s ease, box-shadow 0.4s ease;
 }
 
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .site-name {
   font-family: "Playfair Display", serif;
   font-size: 1.4rem;
@@ -117,12 +129,6 @@ ul {
 .site-tagline {
   font-size: 0.8rem;
   color: var(--text-secondary);
-}
-
-.topbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .nav-link {
@@ -372,7 +378,7 @@ footer p {
     gap: 12px;
   }
 
-  .topbar-nav {
+  .topbar-right {
     justify-content: center;
     flex-wrap: wrap;
   }
