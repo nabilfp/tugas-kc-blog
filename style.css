@@ -312,6 +312,15 @@ section h2 {
   color: var(--accent);
 }
 
+.contact-item a[href*="github.com"] {
+  font-family: "Inter", monospace;
+  font-size: 0.9rem;
+}
+
+.contact-item a[href*="github.com"]:hover {
+  color: #e94560;
+}
+
 /* ========== Footer ========== */
 footer {
   background-color: var(--bg-footer);
